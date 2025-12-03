@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+
+.fade-in {
+    animation: fade-in 1s ease-in-out;
+}
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.pop-in {
+    animation: pop-in 0.9s ease-out;
+}
+@keyframes pop-in {
+    0% {
+        transform: scale(0.55);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
